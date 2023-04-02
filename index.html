@@ -12,23 +12,26 @@
 
 <body>
   <div class="main_wrapper">
+
     <div class="main_content">
-      <label for="addValue">Name/Value Pair</label>
-      <div>
-        <input class="main_content__addInput" id="addValue" placeholder="Name=Value" type="text" />
-        <button class="main_content__addBtn" id="add">Add</button>
+      <div class="main_content__header">
+        <label for="addValue">Name=Value</label>
+        <div>
+          <input class="main_content__addInput" id="addValue" placeholder="Name=Value" type="text" />
+          <button class="main_content__form__btn custom-btn" id="add">Add</button>
+        </div>
+        <div><label>Name = Value List</label></div>
       </div>
-      <div><label>Name/Value Pair List</label></div>
       <div class="main_content__form__wrapper">
         <div>
           <textarea id="textarea"></textarea>
         </div>
 
         <div class="main_content__form__btnWrapper">
-          <button class="main_content__form__btn" id="SortByName">Sort by Name</button>
-          <button class="main_content__form__btn" id="SortByValue">Sort by Value</button>
-          <button class="main_content__form__btn" id="Delete">Delete</button>
-          <button class="main_content__form__btn" id="ShowXML">XML Toggler</button>
+          <button class="main_content__form__btn custom-btn" id="SortByName"><span>by Name</span> </button>
+          <button class="main_content__form__btn custom-btn" id="SortByValue"><span>Sort by Value</span></button>
+          <button class="main_content__form__btn custom-btn" id="Delete"><span>Delete</span></button>
+          <button class="main_content__form__btn custom-btn" id="ShowXML"><span>XML Toggler</span></button>
         </div>
       </div>
     </div>
