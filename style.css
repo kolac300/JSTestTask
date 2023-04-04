@@ -18,6 +18,12 @@
   text-align: center;
 }
 
+.main_content__header label {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 
 
 .main_content__addInput {
