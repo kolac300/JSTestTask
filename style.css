@@ -5,6 +5,7 @@
   margin: 10% auto;
   height: 100%;
   border-radius: 10px;
+  border: 2px solid black;
 }
 
 .main_content__form__wrapper {
@@ -20,6 +21,7 @@
 
 
 .main_content__addInput {
+  background-color: #ced0c8;
   width: 40%;
   height: 2rem;
   border: none;
@@ -41,6 +43,12 @@
   height: 24rem;
   resize: none;
   box-sizing: border-box;
+  background-color: rgb(52, 148, 52);
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
 }
 
 @media screen and (max-width: 1100px) {
