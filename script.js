@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
   // selectros
 
-  document.querySelector("#Add").onclick = addValueBtn;
+  document.querySelector("#add").onclick = addValueBtn;
   document.querySelector("#SortByName").onclick = sortByNameBtn;
   document.querySelector("#SortByValue").onclick = sortByValueBtn;
   document.querySelector("#Delete").onclick = deleteBtn;
@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // variables
 
-  let input = document.querySelector(".main_content__addInput");
+  let input = document.querySelector("#addValue");
   let textarea = document.querySelector("#textarea");
   let list = [];
   let isXml = false;
