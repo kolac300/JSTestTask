@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // variables
 
-  let input = document.querySelector("#addValue");
+  let input = document.querySelector(".main_content__addInput");
   let textarea = document.querySelector("#textarea");
   let list = [];
   let isXml = false;
